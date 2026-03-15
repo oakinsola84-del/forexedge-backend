@@ -71,7 +71,6 @@ userSchema.methods.toSafeJSON = function() {
   return obj;
 };
 
-userSchema.index({ email: 1 });
 userSchema.index({ stripeCustomerId: 1 });
 userSchema.index({ telegramChatId: 1 });
 
